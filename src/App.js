@@ -7,6 +7,7 @@ import Markdown from "./components/Markdown/Markdown"
 import BrowserTab from "./components/BrowserTabs/BrowserTabs"
 import RockPaperScissors from "./components/RockPaperScissors/RockPaperScissors"
 import MoveLink from "./components/MoveLink/MoveLink"
+import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
            <Link to="/MoveLink">MoveLink</Link>
          </li>
          <li>
+           <Link to="/InfiniteScroll">InfiniteScroll</Link>
+         </li>
+         <li>
            <Link to="/Authentication">Authentication</Link>
          </li>
         </ul>
@@ -54,6 +58,9 @@ function App() {
           </Route>
           <Route path="/movelink">
             <MoveLink/>
+          </Route>
+          <Route path="/infinitescroll">
+            <InfiniteScroll/>
           </Route>
           <Route path="/authentication">
             <Authentication/>
