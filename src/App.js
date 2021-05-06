@@ -6,6 +6,7 @@ import Authentication from "./components/Authentication/Authentication"
 import Markdown from "./components/Markdown/Markdown"
 import BrowserTab from "./components/BrowserTabs/BrowserTabs"
 import RockPaperScissors from "./components/RockPaperScissors/RockPaperScissors"
+import MoveLink from "./components/MoveLink/MoveLink"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 function App() {
@@ -29,6 +30,9 @@ function App() {
            <Link to="/RockPaperScissors">RockPaperScissors</Link>
          </li>
          <li>
+           <Link to="/MoveLink">MoveLink</Link>
+         </li>
+         <li>
            <Link to="/Authentication">Authentication</Link>
          </li>
         </ul>
@@ -47,6 +51,9 @@ function App() {
           </Route>
           <Route path="/RockPaperScissors">
             <RockPaperScissors/>
+          </Route>
+          <Route path="/movelink">
+            <MoveLink/>
           </Route>
           <Route path="/authentication">
             <Authentication/>
