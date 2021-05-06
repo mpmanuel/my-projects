@@ -5,6 +5,7 @@ import Pomodoro from "./components/Pomodoro/Pomodoro"
 import Authentication from "./components/Authentication/Authentication"
 import Markdown from "./components/Markdown/Markdown"
 import BrowserTab from "./components/BrowserTabs/BrowserTabs"
+import RockPaperScissors from "./components/RockPaperScissors/RockPaperScissors"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
            <Link to="/BrowserTab">broswerTab</Link>
          </li>
          <li>
+           <Link to="/RockPaperScissors">RockPaperScissors</Link>
+         </li>
+         <li>
            <Link to="/Authentication">Authentication</Link>
          </li>
         </ul>
@@ -40,6 +44,9 @@ function App() {
           </Route>
           <Route path="/browsertab">
             <BrowserTab/>
+          </Route>
+          <Route path="/RockPaperScissors">
+            <RockPaperScissors/>
           </Route>
           <Route path="/authentication">
             <Authentication/>
