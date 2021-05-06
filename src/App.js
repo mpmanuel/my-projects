@@ -9,6 +9,7 @@ import RockPaperScissors from "./components/RockPaperScissors/RockPaperScissors"
 import MoveLink from "./components/MoveLink/MoveLink"
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll"
 import Trivia from "./components/Trivia/Trivia"
+import WebSpeechTimer from "./components/WebSpeechTimer/WebSpeechTimer"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 function App() {
@@ -41,6 +42,9 @@ function App() {
            <Link to="/Trivia">Trivia</Link>
          </li>
          <li>
+           <Link to="/WebSpeechTimer">WebSpeechTimer</Link>
+         </li>
+         <li>
            <Link to="/Authentication">Authentication</Link>
          </li>
         </ul>
@@ -68,6 +72,9 @@ function App() {
           </Route>
           <Route path="/trivia">
             <Trivia/>
+          </Route>
+          <Route path="/webspeechtimer">
+            <WebSpeechTimer/>
           </Route>
           <Route path="/authentication">
             <Authentication/>
