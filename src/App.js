@@ -10,6 +10,7 @@ import MoveLink from "./components/MoveLink/MoveLink"
 import InfiniteScroll from "./components/InfiniteScroll/InfiniteScroll"
 import Trivia from "./components/Trivia/Trivia"
 import WebSpeechTimer from "./components/WebSpeechTimer/WebSpeechTimer"
+import Calendar from "./components/Calendar/Calendar"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 function App() {
@@ -47,6 +48,9 @@ function App() {
          <li>
            <Link to="/Authentication">Authentication</Link>
          </li>
+         <li>
+           <Link to="/Calendar">Calendar</Link>
+         </li>
         </ul>
 
         <Switch>
@@ -78,6 +82,9 @@ function App() {
           </Route>
           <Route path="/authentication">
             <Authentication/>
+          </Route>
+          <Route path="/calendar">
+            <Calendar/>
           </Route>
           
           <Route path="/" exact={true}>
