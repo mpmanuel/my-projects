@@ -4,6 +4,7 @@ import MyProjects from "./components/MyProjects/MyProjects"
 import Pomodoro from "./components/Pomodoro/Pomodoro"
 import Authentication from "./components/Authentication/Authentication"
 import Markdown from "./components/Markdown/Markdown"
+import BrowserTab from "./components/BrowserTabs/BrowserTabs"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
            <Link to="/Markdown">Markdown</Link>
          </li>
          <li>
+           <Link to="/BrowserTab">broswerTab</Link>
+         </li>
+         <li>
            <Link to="/Authentication">Authentication</Link>
          </li>
         </ul>
@@ -33,6 +37,9 @@ function App() {
           </Route>
           <Route path="/markdown">
             <Markdown/>
+          </Route>
+          <Route path="/browsertab">
+            <BrowserTab/>
           </Route>
           <Route path="/authentication">
             <Authentication/>
