@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
 
-* {
+.pomodoro * {
   box-sizing: border-box;
 }
 
-body {
+.pomodoro {
   padding: 0;
   margin: 0;
-  font-family: 'Major Mono Display', monospace;
+  font-family: "Major Mono Display", monospace;
   line-height: 1.5;
 }
 
-.app {
+.pomodoro .app {
   min-height: 100vh;
   padding-left: 20px;
   padding-right: 20px;
@@ -23,20 +23,20 @@ body {
   color: #2c888d;
 }
 
-h2 {
+.pomodoro h2 {
   color: #49b2b8;
   font-size: 30px;
   text-align: center;
   margin: 0;
 }
 
-.timer {
+.pomodoro .timer {
   color: #1f6e72;
   font-size: 150px;
   margin-bottom: 20px;
 }
 
-.buttons button {
+.pomodoro .buttons button {
   outline: none;
   border: none;
   font-size: 24px;
@@ -49,27 +49,27 @@ h2 {
   transition: 0.3s ease all;
 }
 
-.buttons button:hover {
+.pomodoro .buttons button:hover {
   border-radius: 10px;
   background: #f5f8ca;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
 
-.buttons button:not(:last-child) {
+.pomodoro .buttons button:not(:last-child) {
   margin-right: 10px;
 }
 
 @media (max-width: 780px) {
-  h2 {
+  .pomodoro h2 {
     font-size: 22px;
   }
 
-  .timer {
+  .pomodoro .timer {
     font-size: 80px;
   }
 
-  .buttons button {
+  .pomodoro .buttons button {
     font-size: 18px;
   }
 }

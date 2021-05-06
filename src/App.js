@@ -2,6 +2,7 @@ import logo from "./logo.svg"
 import "./App.css"
 import MyProjects from "./components/MyProjects/MyProjects"
 import Pomodoro from "./components/Pomodoro/Pomodoro"
+import Markdown from "./components/Markdown/Markdown"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
          <li>
            <Link to="/Pomodoro">Pomodoro</Link>
          </li>
+         <li>
+           <Link to="/Markdown">Markdown</Link>
+         </li>
         </ul>
 
         <Switch>
@@ -23,7 +27,9 @@ function App() {
           <Route path="/pomodoro">
             <Pomodoro/>
           </Route>
-
+          <Route path="/markdown">
+            <Markdown/>
+          </Route>
           <Route path="/" exact={true}>
             <MyProjects/>
           </Route>
