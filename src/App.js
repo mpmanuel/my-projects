@@ -2,6 +2,7 @@ import logo from "./logo.svg"
 import "./App.css"
 import MyProjects from "./components/MyProjects/MyProjects"
 import Pomodoro from "./components/Pomodoro/Pomodoro"
+import Authentication from "./components/Authentication/Authentication"
 import Markdown from "./components/Markdown/Markdown"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
 
@@ -19,6 +20,9 @@ function App() {
          <li>
            <Link to="/Markdown">Markdown</Link>
          </li>
+         <li>
+           <Link to="/Authentication">Authentication</Link>
+         </li>
         </ul>
 
         <Switch>
@@ -30,6 +34,10 @@ function App() {
           <Route path="/markdown">
             <Markdown/>
           </Route>
+          <Route path="/authentication">
+            <Authentication/>
+          </Route>
+          
           <Route path="/" exact={true}>
             <MyProjects/>
           </Route>
