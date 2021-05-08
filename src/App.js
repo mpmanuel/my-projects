@@ -12,15 +12,16 @@ import Trivia from "./components/Trivia/Trivia"
 import WebSpeechTimer from "./components/WebSpeechTimer/WebSpeechTimer"
 import Calendar from "./components/Calendar/Calendar"
 import {BrowserRouter as Router, Link, Switch, Route } from "react-router-dom"
+import styled, { css } from "styled-components"
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <ul>
-        <li>
+        <StyledUl>
+        <StyledLiTop>
            <Link to="/">Home</Link>
-         </li>
+         </StyledLiTop>
          <li>
            <Link to="/Pomodoro">Pomodoro</Link>
          </li>
@@ -48,10 +49,10 @@ function App() {
          <li>
            <Link to="/Authentication">Authentication</Link>
          </li>
-         <li>
+         <StyledLiBottom>
            <Link to="/Calendar">Calendar</Link>
-         </li>
-        </ul>
+         </StyledLiBottom>
+        </StyledUl>
 
         <Switch>
           
@@ -98,3 +99,15 @@ function App() {
 }
 
 export default App
+
+const StyledUl = styled.ul`
+  list-style-type: square;
+  background-color: rgb(36, 221, 144);
+  border-radius: 25px;
+`
+const StyledLiTop = styled.li`
+  padding-top: 30px;
+`
+const StyledLiBottom = styled.li`
+  padding-bottom: 30px;
+`
