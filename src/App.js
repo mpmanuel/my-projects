@@ -22,35 +22,35 @@ function App() {
         <StyledLiTop>
            <Link to="/">Home</Link>
          </StyledLiTop>
-         <li>
-           <Link to="/Pomodoro">Pomodoro</Link>
-         </li>
-         <li>
-           <Link to="/Markdown">Markdown</Link>
-         </li>
-         <li>
-           <Link to="/BrowserTab">broswerTab</Link>
-         </li>
-         <li>
-           <Link to="/RockPaperScissors">RockPaperScissors</Link>
-         </li>
-         <li>
-           <Link to="/MoveLink">MoveLink</Link>
-         </li>
-         <li>
-           <Link to="/InfiniteScroll">InfiniteScroll</Link>
-         </li>
-         <li>
-           <Link to="/Trivia">Trivia</Link>
-         </li>
-         <li>
-           <Link to="/WebSpeechTimer">WebSpeechTimer</Link>
-         </li>
-         <li>
-           <Link to="/Authentication">Authentication</Link>
-         </li>
+         <StyledLi>
+           <Link to="/Pomodoro">Pomodoro: A timer app</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/Markdown">Markdown: Converts markdown</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/BrowserTab">broswerTab: A sample of browser tabs</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/RockPaperScissors">RockPaperScissors: A game of RPS with the computer</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/MoveLink">MoveLink: Use arrow keys or buttons to move link</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/InfiniteScroll">InfiniteScroll: Scrolling gallery using Unsplash</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/Trivia">Trivia: A trivia game with multiple categories</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/WebSpeechTimer">WebSpeechTimer: *** Needs a supported browser for speech function ***</Link>
+         </StyledLi>
+         <StyledLi>
+           <Link to="/Authentication">Authentication: An authentication page using Auth0</Link>
+         </StyledLi>
          <StyledLiBottom>
-           <Link to="/Calendar">Calendar</Link>
+           <Link to="/Calendar">Calendar: Click dates to change the calendar range</Link>
          </StyledLiBottom>
         </StyledUl>
 
@@ -107,7 +107,12 @@ const StyledUl = styled.ul`
 `
 const StyledLiTop = styled.li`
   padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 `
 const StyledLiBottom = styled.li`
   padding-bottom: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+`
+const StyledLi = styled.li`
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 `
