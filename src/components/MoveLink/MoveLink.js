@@ -32,7 +32,9 @@ export default function App() {
   })
 
   return (
-    <div className="movelink">
+    <div style={{ 
+      backgroundImage: `url("https://i.imgur.com/noNWRPk.png")` 
+    }} className="movelink">
       
       <div className="app">
         <canvas ref={canvasRef} />
