@@ -29,7 +29,7 @@ function App() {
                 </NavLink>
               </Tab>
               <Tab>
-                <NavLink to="/browsertabfeatures" activeClassName="is-active">
+                <NavLink to="/browsertab/features" activeClassName="is-active">
                   Features
                 </NavLink>
               </Tab>
