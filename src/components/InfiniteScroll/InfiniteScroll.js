@@ -47,6 +47,8 @@ export default function App() {
 
   // return an error if there is no access key
   if (!accessKey) {
+    console.log(accessKey);
+    console.log(process.env.REACT_APP_UNSPLASH_ACCESS_KEY);
     return (
       <a href="https://unsplash.com/developers" className="error">
         Required: Get Your Unsplash API Key First

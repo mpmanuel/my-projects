@@ -33,6 +33,7 @@ export default function App() {
 
   return (
     <div className="movelink">
+      
       <div className="app">
         <canvas ref={canvasRef} />
 

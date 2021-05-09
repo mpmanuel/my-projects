@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 export default function useMovement() {
-  const [x, setX] = useState(0);
-  const [y, setY] = useState(0);
+  const [x, setX] = useState(100);
+  const [y, setY] = useState(100);
   const [direction, setDirection] = useState('down');
 
   useEffect(() => {
