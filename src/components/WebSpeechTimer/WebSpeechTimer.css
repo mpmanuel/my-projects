@@ -21,7 +21,7 @@
 }
 
 @media (min-width: 1280px) {
-  .app {
+  .webspeechtimer .app {
     max-width: 50%;
   }
 }

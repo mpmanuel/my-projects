@@ -33,6 +33,7 @@
     padding-right: 10px;
     display: flex;
     padding-top: 10px;
+    
   }
   
   .browsertab  .tab {
@@ -98,7 +99,7 @@
      height: 80px; 
      width: 300px;
      top: -10px;
-     border-radius: 50%;
+     border-radius: 80%;
      transition: 0.3s ease all;
      opacity: 0.8;
      pointer-events: none;
