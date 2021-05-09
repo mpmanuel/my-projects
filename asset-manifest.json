@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-projects/static/css/main.4685b6f6.chunk.css",
+    "main.css": "/my-projects/static/css/main.32ae50d1.chunk.css",
     "main.js": "/my-projects/static/js/main.fdb337e0.chunk.js",
     "main.js.map": "/my-projects/static/js/main.fdb337e0.chunk.js.map",
     "runtime-main.js": "/my-projects/static/js/runtime-main.a3faf653.js",
@@ -8,7 +8,7 @@
     "static/js/2.1242352f.chunk.js": "/my-projects/static/js/2.1242352f.chunk.js",
     "static/js/2.1242352f.chunk.js.map": "/my-projects/static/js/2.1242352f.chunk.js.map",
     "index.html": "/my-projects/index.html",
-    "static/css/main.4685b6f6.chunk.css.map": "/my-projects/static/css/main.4685b6f6.chunk.css.map",
+    "static/css/main.32ae50d1.chunk.css.map": "/my-projects/static/css/main.32ae50d1.chunk.css.map",
     "static/js/2.1242352f.chunk.js.LICENSE.txt": "/my-projects/static/js/2.1242352f.chunk.js.LICENSE.txt",
     "static/media/frodo.5d08a455.png": "/my-projects/static/media/frodo.5d08a455.png",
     "static/media/gandalf.ea106f4e.png": "/my-projects/static/media/gandalf.ea106f4e.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.a3faf653.js",
     "static/js/2.1242352f.chunk.js",
-    "static/css/main.4685b6f6.chunk.css",
+    "static/css/main.32ae50d1.chunk.css",
     "static/js/main.fdb337e0.chunk.js"
   ]
 }
