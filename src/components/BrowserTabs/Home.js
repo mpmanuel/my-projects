@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { css } from "styled-components"
 
 export default function Home() {
-    return <StyledDivHome>I am the Home Page</StyledDivHome>; 
+    return <div>I am the Home Page</div>; 
 }
 
 const StyledDivHome = styled.div`

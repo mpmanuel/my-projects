@@ -19,17 +19,30 @@ function App() {
           <div className="browser">
             <div className="tabs">
               <Tab>
-                <NavLink to="/browsertab" activeClassName="is-active" exact={true}>
+                <NavLink
+                  to="/browsertab"
+                  activeClassName="is-active"
+                  exact={true}
+                  style={{ width: "200px" }}
+                >
                   Home
                 </NavLink>
               </Tab>
               <Tab>
-                <NavLink to="/browsertab/about" activeClassName="is-active">
+                <NavLink
+                  to="/browsertab/about"
+                  activeClassName="is-active"
+                  style={{ width: "200px" }}
+                >
                   About
                 </NavLink>
               </Tab>
               <Tab>
-                <NavLink to="/browsertab/features" activeClassName="is-active">
+                <NavLink
+                  to="/browsertab/features"
+                  activeClassName="is-active"
+                  style={{ width: "200px" }}
+                >
                   Features
                 </NavLink>
               </Tab>

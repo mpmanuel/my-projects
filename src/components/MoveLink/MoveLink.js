@@ -13,7 +13,7 @@ export default function App() {
   useEffect(() => {
     const context = canvasRef.current.getContext("2d")
     context.canvas.height = window.innerHeight
-    context.canvas.width = window.innerWidth
+    context.canvas.width = window.innerWidth -50
 
     context.fillRect(x, y, 100, 100)
   }, [])
@@ -32,10 +32,12 @@ export default function App() {
   })
 
   return (
-    <div style={{ 
-      backgroundImage: `url("https://i.imgur.com/noNWRPk.png")` 
-    }} className="movelink">
-      
+    <div
+      style={{
+        backgroundImage: `url("https://i.imgur.com/noNWRPk.png")`,
+      }}
+      className="movelink"
+    >
       <div className="app">
         <canvas ref={canvasRef} />
 
